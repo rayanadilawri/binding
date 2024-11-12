@@ -1,0 +1,10 @@
+h1 {
+    color: tomato;
+}
+
+* { margin-top: 1em;}
+
+body {
+    font-size: var(--base-size);
+    padding: var(--base-size);
+}
