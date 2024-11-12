@@ -1,8 +1,10 @@
-h1 {
+body {
     color: tomato;
 }
 
-* { margin-top: 1em;}
+h2 { color: blue}
+
+* {margin-top: 1em;}
 
 body {
     font-size: var(--base-size);
