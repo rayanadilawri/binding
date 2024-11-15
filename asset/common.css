@@ -18,7 +18,21 @@ nav {
     z-index: 1000;
 }
 
+nav:hover {
+    background-color: rgb(0, 234, 255); /* Color when hovering */
+}
+
 header {
     margin-top: 10rem;
+}
+
+
+h1 {
+    font-size: 8em;
+    display: flex;
+}
+
+h2 {
+    font-size: 4em;
 }
 
