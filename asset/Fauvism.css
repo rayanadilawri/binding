@@ -8,10 +8,10 @@ nav {
       }
 
 body {
-    background-color: #EFE9E5;
+    background-color: #D8C8B8;
      
 }
 
 nav:hover {
-    background-color: #A68A6E; /* Color when hovering */
+    background-color: #6A0DAD; /* Color when hovering */
 }
