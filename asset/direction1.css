@@ -1,0 +1,14 @@
+
+nav {
+    background-color: A8BDA8;
+    font-family: 'Sansation Light', sans-serif;
+      }
+
+body {
+    background-color: #EFE9E5;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+nav:hover {
+    background-color: #A68A6E; /* Color when hovering */
+}
