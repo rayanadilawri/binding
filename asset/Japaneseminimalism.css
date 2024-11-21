@@ -1,14 +1,67 @@
 
 nav {
-    background-color: A8BDA8;
+    /* overflow: hidden; */
+    background-color: #070D7B;
     font-family: 'Sansation Light', sans-serif;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    padding:0px;
       }
+
+nav a {
+    float: left;
+}
+
+.dropdown {
+    float: left;
+    padding: 10px;
+    /* overflow: hidden; */
+}
+
+.dropdown .nav-button {
+    margin: 0;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+z-index: 100;
+background-color: #070D7B;
+}
+
+.dropdown-content a {
+    float: none;
+    display: block;
+    padding: 20px;
+}
+
+
+.dropdown-content a:hover {
+  color: rgb(228, 122, 122);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-button {
+    padding: 0px 20px;
+}
+
+.nav-button:hover {
+    color: rgb(228, 122, 122); 
+    background-color: #070D7B;
+}
 
 body {
     background-color: #EFE9E5;
     font-family: "Nunito Sans", sans-serif;
+    color: #070D7B;
 }
 
-nav:hover {
-    background-color: #A68A6E; /* Color when hovering */
+@media (min-width:900px) {
+    nav { 
+      font-size: 28px;
+    }
 }
