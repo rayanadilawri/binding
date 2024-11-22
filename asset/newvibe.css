@@ -103,11 +103,14 @@ body {
     align-items: center;   
     text-align: center;    
     color: black; 
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
 .shape1:hover {
     animation-play-state: paused; /* Pauses the animation on hover */
+    font-family: "Pinyon Script", serif;
+    font-size: 30;
 }
 
 .shape2 {
