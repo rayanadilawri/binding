@@ -23,11 +23,19 @@ header {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 32px;
+    padding: 1em;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
+    padding: 1em;
+}
+
+h3 {
+    font-size: 30px;
+    color: white; 
+    font-family: "Pinyon Script", serif;
 }
 
 .custom-br {
@@ -45,20 +53,61 @@ h2 {
     align-items: center; 
 }
 
+.cards {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
 
 
-@media (min-width:900px) {
+#back-to-top {
+    height: 40px;
+    width: 100px;
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px;
+    color: black; 
+    border-radius: 5px; 
+    padding: 10px 15px;
+    font-size: 14px;  
+    z-index: 1000;
+    font-family: "Mohave", sans-serif;
+}
+
+
+
+
+@media (min-width:1200px) {
     nav { 
       font-size: 28px;
     }
+
+
+    h2 {
+        font-size: 35px;
+        padding: 1em; }
+
     .shapes {
         display: flex;
         flex-direction: row; 
         justify-content: center; 
         align-items: center; 
         padding-top: 20px;
-        padding-bottom: 20px;
+        gap: 100px;
     }
         
+    .cards {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 20px;
+        gap: 100px;
+    }
+
+    #back-to-top {
+       display: none;
+    }
 }
 
