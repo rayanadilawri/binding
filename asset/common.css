@@ -38,3 +38,27 @@ h2 {
     margin: 10px 0;       /* Optional: Adds space above and below the line */
   }
   
+.shapes {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+@media (min-width:900px) {
+    nav { 
+      font-size: 28px;
+    }
+    .shapes {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+        
+}
+
