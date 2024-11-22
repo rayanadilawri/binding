@@ -93,16 +93,21 @@ body {
     height: 200px;
     width: 200px;
     transform: translateX(-50%) translateY(-50%); 
-    background-image:conic-gradient(rgb(194, 98, 223),rgb(242, 170, 216),rgb(250, 251, 155), rgb(195, 46, 228), rgb(235, 164, 241));
+    background-image: conic-gradient(rgb(194, 98, 223), rgb(242, 170, 216), rgb(250, 251, 155), rgb(195, 46, 228), rgb(235, 164, 241));
     animation: 3.0s linear infinite record;
+    animation-play-state: running; /* Ensures the animation starts running by default */
     border: solid 2px white;
-
     border-radius: 50%;
     display: flex;         
     justify-content: center;
     align-items: center;   
     text-align: center;    
     color: black; 
+    margin-bottom: 20px;
+}
+
+.shape1:hover {
+    animation-play-state: paused; /* Pauses the animation on hover */
 }
 
 .shape2 {
@@ -117,6 +122,7 @@ body {
     align-items: center;   
     text-align: center;    
     color: black; 
+    margin-bottom: 20px;
 }
 .shape3 {
     height: 200px;
@@ -130,8 +136,11 @@ body {
     align-items: center;   
     text-align: center;    
     color: black; 
+    margin-bottom: 20px;
 }
 
+
+/* Keyframes for animation */
 @keyframes record {
     0% {
         transform: rotate(0deg);
@@ -141,8 +150,3 @@ body {
     }
 }
 
-@media (min-width:900px) {
-    nav { 
-      font-size: 28px;
-    }
-}

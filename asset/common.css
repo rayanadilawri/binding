@@ -30,3 +30,11 @@ h2 {
     font-size: 22px;
 }
 
+.custom-br {
+    display: block;       /* Makes the <br> act like a block element */
+    width: 100%;          /* Full-width line */
+    height: 2px;          /* Thickness of the line */
+    background-color: black; /* Line color */
+    margin: 10px 0;       /* Optional: Adds space above and below the line */
+  }
+  
