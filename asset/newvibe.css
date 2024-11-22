@@ -93,7 +93,7 @@ body {
     height: 200px;
     width: 200px;
     transform: translateX(-50%) translateY(-50%); 
-    background-image: conic-gradient(rgb(194, 98, 223), rgb(242, 170, 216), rgb(250, 251, 155), rgb(195, 46, 228), rgb(235, 164, 241));
+    background-image: conic-gradient(rgb(236, 135, 240), rgb(242, 170, 216), rgb(182, 75, 240), rgb(195, 46, 228), rgb(241, 177, 247));
     animation: 3.0s linear infinite record;
     animation-play-state: running; /* Ensures the animation starts running by default */
     border: solid 2px white;
@@ -110,14 +110,14 @@ body {
 .shape1:hover {
     animation-play-state: paused; /* Pauses the animation on hover */
     font-family: "Pinyon Script", serif;
-    font-size: 30;
+    font-size: 40px;
 }
 
 .shape2 {
     height: 200px;
     width: 200px;
  transform: translateX(-50%) translateY(-50%); 
-    background-image:conic-gradient(rgb(194, 98, 223),rgb(242, 170, 216),rgb(250, 251, 155), rgb(195, 46, 228), rgb(235, 164, 241));
+    background-image:conic-gradient(rgb(112, 201, 239),rgb(56, 111, 238),rgb(7, 34, 155), rgb(142, 156, 247), rgb(144, 133, 244));
     animation: 3.0s linear infinite record;
     border: solid 2px white;    border-radius: 50%;
     display: flex;         
@@ -126,12 +126,21 @@ body {
     text-align: center;    
     color: black; 
     margin-bottom: 20px;
+    font-size: 30px;
 }
+
+.shape2:hover {
+    animation-play-state: paused; /* Pauses the animation on hover */
+    font-family: "Pinyon Script", serif;
+    font-size: 40px;
+}
+
+
 .shape3 {
     height: 200px;
     width: 200px;
  transform: translateX(-50%) translateY(-50%); 
-    background-image:conic-gradient(rgb(194, 98, 223),rgb(242, 170, 216),rgb(250, 251, 155), rgb(195, 46, 228), rgb(235, 164, 241));
+    background-image:conic-gradient(rgb(249, 196, 121),rgb(254, 56, 56),rgb(250, 251, 155), rgb(228, 46, 98), rgb(248, 255, 173));
     animation: 3.0s linear infinite record;
     border: solid 2px white;    border-radius: 50%;
     display: flex;         
@@ -140,6 +149,13 @@ body {
     text-align: center;    
     color: black; 
     margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.shape3:hover {
+    animation-play-state: paused; /* Pauses the animation on hover */
+    font-family: "Pinyon Script", serif;
+    font-size: 40px;
 }
 
 

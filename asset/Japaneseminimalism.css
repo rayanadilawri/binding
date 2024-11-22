@@ -1,13 +1,15 @@
 
 nav {
     /* overflow: hidden; */
-    background-color: #606c5a;
-    font-family: 'Sansation Light', sans-serif;
-    color: #f3f0e8;
+    background-color:rgb(245, 139, 139);
+    font-family: 
+    color: black;
     font-size: 20px;
     height: 50px;
     padding:0px;
     text-transform: none;
+    font-family: "Nunito Sans", serif;
+    border: black solid 2px;
       }
 
 nav a {
@@ -28,7 +30,8 @@ nav a {
 display: none;
 position: absolute;
 z-index: 100;
-background-color:  #606c5a;
+background-color: white;
+border: black solid 2px;
 }
 
 .dropdown-content a {
@@ -39,9 +42,8 @@ background-color:  #606c5a;
 
 
 .dropdown-content a:hover {
-  color: #c09e85;
-  font-family: "Pinyon Script";
-
+  color: blue;
+  font-family: "Pinyon Script", serif;
 }
 
 .dropdown:hover .dropdown-content {
@@ -53,30 +55,94 @@ background-color:  #606c5a;
 }
 
 .nav-button:hover {
-    color: #c09e85;; 
-    background-color:  #606c5a;
+    color: blue; 
+    background-color: #A2C9E2;
 }
 
 h1 {
-    font-family: "Gothic A1", sans-serif;
+   font-family: "Mohave", sans-serif;
+    color: black;
+    
 }
 
 
 h2 {
-    color: #aa8819;
+    color: black;
 }
 
 body {
-    background-color: #f3f0e8;
-    font-family: 'Sansation Light', sans-serif;
+    background-color: white;
+    font-family: mohave;
     color: black;
 }
 
 .expand span:hover {
+    font-size: 32px;
     transition: 0.3s;
     letter-spacing: 10px;
-    font-family: "Pinyon Script";
-    color: #c09e85;
+    font-family: "Monoton", serif;
+    color: blue;
+}
+
+.shape1 {
+    height: 200px;
+    width: 200px;
+    transform: translateX(-50%) translateY(-50%); 
+    background-color: rgb(245, 139, 139);
+    animation-play-state: running; /* Ensures the animation starts running by default */
+    border: solid 2px white;
+    border-radius: 50%;
+    display: flex;         
+    justify-content: center;
+    align-items: center;   
+    text-align: center;    
+    color: black; 
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.shape1:hover {
+    animation-play-state: 3s; 
+    font-family: "Pinyon Script", serif;
+    font-size: 30;
+}
+
+.shape2 {
+    height: 200px;
+    width: 200px;
+ transform: translateX(-50%) translateY(-50%); 
+ background-color: rgb(245, 139, 139);   
+    border: solid 2px white;    border-radius: 50%;
+    display: flex;         
+    justify-content: center;
+    align-items: center;   
+    text-align: center;    
+    color: black; 
+    margin-bottom: 20px;
+}
+.shape3 {
+    height: 200px;
+    width: 200px;
+    transform: translateX(-50%) translateY(-50%); 
+    background-color: rgb(245, 139, 139);   
+    border: solid 2px white;    border-radius: 50%;
+    display: flex;         
+    justify-content: center;
+    align-items: center;   
+    text-align: center;    
+    color: black; 
+    margin-bottom: 20px;
+}
+
+
+/* Keyframes for animation */
+@keyframes record {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -85,3 +151,4 @@ body {
       font-size: 28px;
     }
 }
+
