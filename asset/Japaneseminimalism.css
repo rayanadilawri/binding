@@ -1,12 +1,13 @@
 
 nav {
     /* overflow: hidden; */
-    background-color: #070D7B;
+    background-color: #606c5a;
     font-family: 'Sansation Light', sans-serif;
-    color: white;
+    color: #f3f0e8;
     font-size: 20px;
     height: 50px;
     padding:0px;
+    text-transform: none;
       }
 
 nav a {
@@ -27,7 +28,7 @@ nav a {
 display: none;
 position: absolute;
 z-index: 100;
-background-color: #070D7B;
+background-color:  #606c5a;
 }
 
 .dropdown-content a {
@@ -38,7 +39,9 @@ background-color: #070D7B;
 
 
 .dropdown-content a:hover {
-  color: rgb(228, 122, 122);
+  color: #c09e85;
+  font-family: "Pinyon Script";
+
 }
 
 .dropdown:hover .dropdown-content {
@@ -50,15 +53,32 @@ background-color: #070D7B;
 }
 
 .nav-button:hover {
-    color: rgb(228, 122, 122); 
-    background-color: #070D7B;
+    color: #c09e85;; 
+    background-color:  #606c5a;
+}
+
+h1 {
+    font-family: "Gothic A1", sans-serif;
+}
+
+
+h2 {
+    color: #aa8819;
 }
 
 body {
-    background-color: #EFE9E5;
-    font-family: "Nunito Sans", sans-serif;
-    color: #070D7B;
+    background-color: #f3f0e8;
+    font-family: 'Sansation Light', sans-serif;
+    color: black;
 }
+
+.expand span:hover {
+    transition: 0.3s;
+    letter-spacing: 10px;
+    font-family: "Pinyon Script";
+    color: #c09e85;
+}
+
 
 @media (min-width:900px) {
     nav { 
