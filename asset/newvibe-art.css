@@ -13,6 +13,7 @@ nav {
     text-transform: none;
     font-family: "Mohave", sans-serif;
     border: black solid 2px;
+    position: absolute;
       }
 
 nav a {
@@ -28,7 +29,7 @@ nav a {
 
 .dropdown-content {
 display: none;
-position: absolute;
+position: fixed;
 z-index: 100;
 background-color: white;
 border: black solid 2px;
@@ -60,32 +61,20 @@ border: black solid 2px;
 }
 
 
-.grid .show-grid{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr); 
-    grid-template-rows: repeat(5, 1fr);  
-    width: 100%;                          
-    height: auto;                                                                 
-    aspect-ratio: 2;  
-    margin-top: 50px;                   
-  }
-  
-  .grid div {
-    border: black 0.1em solid;             
-    width: 100%;                          
-    height: auto;                         
-  }
-
 
 h1 {
    font-family: "Mohave", sans-serif;
     color: black;
 }
 
-
-h2 {
-    color: blue;
+.sticky-chapter {
+    border: 2px solid black;
+    position: sticky;
+    top:0;
+    background-color: blue;
+    color: white;
 }
+
 
 body {
     background-color: white;

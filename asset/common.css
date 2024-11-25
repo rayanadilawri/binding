@@ -1,6 +1,7 @@
 body {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -18,24 +19,37 @@ nav {
     z-index: 1000;
 }
 
+.dropdown .nav-button {
+    margin: 0;
+    font-size: 2em;
+}
+
 header {
     margin-top: 5rem; /* Adjusted to account for nav */
 }
 
 h1 {
-    font-size: 80px;
-    padding: 1em;
-    font-weight: 800; }
+    font-size: 8.5em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 800; 
+    overflow-x: hidden;
+    font-family: "Mohave", sans-serif;
+}
 
 h2 {
-    font-size: 20px;
-    padding: 1em;
+    font-size: 3em;
+    padding-left: 2%;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 3em;
     color: white; 
     font-family: "Pinyon Script", serif;
+}
+
+p {
+    font-size: 2em;
 }
 
 .custom-br {
@@ -77,13 +91,10 @@ h3 {
 }
 
 
-
-
 @media (min-width:1200px) {
     nav { 
       font-size: 28px;
     }
-
 
     h2 {
         font-size: 35px;
@@ -109,6 +120,10 @@ h3 {
 
     #back-to-top {
        display: none;
+    }
+
+    .grid {
+      display: hide;
     }
 }
 
