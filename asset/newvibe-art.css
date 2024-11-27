@@ -1,9 +1,10 @@
+/*fonts*/ 
 .monoton-regular {
     font-weight: 400;
     font-style: normal;
   }
 
-  .grid .show-grid{
+  .grid .art-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr); 
     grid-template-rows: repeat(5, 1fr);  
@@ -13,13 +14,49 @@
     margin-top: 50px;                   
   }
   
+  /*grid*/ 
   .grid div {
     border: black 0.1em solid;             
     width: 100%;                          
     height: auto;                         
   }
 
-  
+  .art-grid div {
+    position: relative;
+    background-color: white; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+/* CIRCLE SHAPE */ 
+.art-grid div:nth-child(odd)::before {
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: red; 
+    border-radius: 50%; 
+}
+
+/* TRIANGLE SHAPE */ 
+.art-grid div:nth-child(even)::before {
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    border-left: 25px solid ;
+    border-right: 25px solid ;
+    border-bottom: 40px solid blue; 
+    transform: translate(-50%, -50%);
+    background-color: white;
+    
+}
+
 nav {
     /* overflow: hidden; */
     background-color:white;
@@ -75,14 +112,6 @@ border: black solid 2px;
 .nav-button:hover {
     color: blue; 
     background-color: #A2C9E2;
-}
-
-
-
-
-h1 {
-   font-family: "Mohave", sans-serif;
-    color: black;
 }
 
 .sticky-chapter {

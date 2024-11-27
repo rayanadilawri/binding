@@ -84,6 +84,18 @@ p {
     color: blue;
 }
 
+
+h1 {
+    font-size: 8em;
+    padding-top: 2%;
+    padding-left: 2%;
+    font-weight: 800; 
+    overflow-x: hidden;
+    font-family: "Righteous", sans-serif;
+    color: black;
+    }
+    
+
 body {
     background-color: white;
     font-family: "Nunito Sans", serif;
@@ -112,9 +124,7 @@ body {
 }
 
 .shape1:hover {
-    animation-play-state: paused; /* Pauses the animation on hover */
-    font-family: "Pinyon Script", serif;
-    font-size: 40px;
+    animation-play-state: paused; 
 }
 
 .shape2 {
@@ -135,8 +145,6 @@ body {
 
 .shape2:hover {
     animation-play-state: paused; /* Pauses the animation on hover */
-    font-family: "Pinyon Script", serif;
-    font-size: 40px;
 }
 
 
@@ -157,9 +165,7 @@ body {
 }
 
 .shape3:hover {
-    animation-play-state: paused; /* Pauses the animation on hover */
-    font-family: "Pinyon Script", serif;
-    font-size: 40px;
+    animation-play-state: paused; 
 }
 
 
@@ -178,12 +184,6 @@ body {
     margin-right: 10%;
     
 
-}
-
-
-#back-to-top {
-    background-color: rgb(242, 159, 43);
-    color: white; 
 }
   
 /* Keyframes for animation */
