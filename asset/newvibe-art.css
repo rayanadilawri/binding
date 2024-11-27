@@ -3,6 +3,23 @@
     font-style: normal;
   }
 
+  .grid .show-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); 
+    grid-template-rows: repeat(5, 1fr);  
+    width: 100%;                          
+    height: auto;                                                                 
+    aspect-ratio: 2;  
+    margin-top: 50px;                   
+  }
+  
+  .grid div {
+    border: black 0.1em solid;             
+    width: 100%;                          
+    height: auto;                         
+  }
+
+  
 nav {
     /* overflow: hidden; */
     background-color:white;
@@ -62,6 +79,7 @@ border: black solid 2px;
 
 
 
+
 h1 {
    font-family: "Mohave", sans-serif;
     color: black;
@@ -72,6 +90,47 @@ h1 {
     position: sticky;
     top:0;
     background-color: blue;
+    color: white;
+}
+
+.sticky-chapter1 {
+    border: 2px solid black;
+    position: sticky;
+    top:1;
+    background-color: yellow;
+    color: white;
+}
+
+
+.sticky-chapter2 {
+    border: 2px solid black;
+    position: sticky;
+    top:2;
+    background-color: red;
+    color: white;
+}
+
+.sticky-chapter3 {
+    border: 2px solid black;
+    position: sticky;
+    top:3;
+    background-color: blue;
+    color: white;
+}
+
+.sticky-chapter4 {
+    border: 2px solid black;
+    position: sticky;
+    top:4;
+    background-color: yellow;
+    color: white;
+}
+
+.sticky-chapter5 {
+    border: 2px solid black;
+    position: sticky;
+    top:5;
+    background-color: red;
     color: white;
 }
 
