@@ -37,5 +37,19 @@
     --color-10: #b60825;
 }
 
-.color-grid div:nth-child(1)::after { background-color: var(--color-1); }
-.color-grid div:nth-child(11)::after { background-color: var(--color-1); }
+.color-grid div:nth-child(1) { background-color: var(--color-1); }
+.color-grid div:nth-child(11) { background-color: var(--color-1); }
+.color-grid div:nth-child(21) { background-color: var(--color-1); }
+.color-grid div:nth-child(31) { background-color: var(--color-1); }
+.color-grid div:nth-child(41) { background-color: var(--color-1); }
+.color-grid div:nth-child(51) { background-color: var(--color-1); }
+
+
+.color-grid div:nth-child(2) { background-color: var(--color-2); }
+.color-grid div:nth-child(12) { background-color: var(--color-2); }
+.color-grid div:nth-child(22) { background-color: var(--color-2); }
+.color-grid div:nth-child(32) { background-color: var(--color-2); }
+.color-grid div:nth-child(42) { background-color: var(--color-2); }
+.color-grid div:nth-child(52) { background-color: var(--color-2); }
+
+
