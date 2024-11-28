@@ -106,6 +106,26 @@ h1 {
     color: black;
     }
     
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.author {
+    text-align: center;
+    justify-content: center;
+    border: solid 2px black; 
+    align-items: center; 
+
+}
+
+.date {
+    text-align: center;
+    justify-content: center;
+    border: solid 2px black; 
+    align-items: center; 
+
+}
 
     h2 {
         color: blue;
