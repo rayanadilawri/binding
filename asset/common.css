@@ -2,7 +2,6 @@
 .nunito-sans{
     font-family: "Nunito Sans", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
       "wdth" 100,
@@ -38,9 +37,19 @@ nav {
 
 header {
     margin-top: 5rem; /* Adjusted to account for nav */
-}
+}  
 
-
+h1 {
+    font-size: 8em;
+    padding-top: 2%;
+    padding-left: 2%;
+    font-weight: 800; 
+    overflow-x: hidden;
+    font-family: "Righteous", sans-serif;
+    color: black;
+    }
+    
+    
     h2 {
         color: blue;
     font-size: 3em;
