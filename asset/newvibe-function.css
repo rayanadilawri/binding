@@ -1,3 +1,4 @@
+
 h1 {
     font-size: 8em;
     padding-top: 2%;
@@ -26,9 +27,29 @@ h1 {
       }
     
       .function-grid div {
-        position: relative;
-        background-color: white; 
         width: 100%;
-        height: 100%;
-        overflow: hidden; 
-    }
+        height: 100%; 
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 2.5em;
+        background-color: #4A4A4A;
+        color: white;
+        Font-family: arial;
+
+}
+
+/*crossword design
+to fix - figure out if i do before or after*/ 
+.function-grid div:nth-child(15)::after { content: 'D '; }
+.function-grid div:nth-child(25)::after { content: 'O'; }
+.function-grid div:nth-child(35)::after { content: 'N'; }
+    
+
+.function-grid div:nth-child(36)::after { content: 'O'; }
+.function-grid div:nth-child(37)::after { content: 'R'; }
+.function-grid div:nth-child(38)::after { content: 'M'; }
+.function-grid div:nth-child(39)::after { content: 'A'; }
+.function-grid div:nth-child(40)::after { content: 'N'; }
