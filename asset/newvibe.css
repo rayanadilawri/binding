@@ -69,7 +69,7 @@ border: black solid 2px;
   .grid div {
     border: black 0.1em solid;             
     width: 100%;                          
-    height: auto;                         
+    height: auto;                      
   }
 
   .show-grid div {
@@ -77,10 +77,21 @@ border: black solid 2px;
     width: 100%;
     height: 100%;
     overflow: hidden; 
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    Font-family: arial;  
+    align-items: center; 
 }
 
 /* CIRCLE SHAPE */ 
-.show-grid div:nth-child(odd)::before {
+.show-grid div:nth-child(10n+1)::before, 
+.show-grid div:nth-child(10n)::before  {
     content: '';
     position: absolute;
     top: 60%;
@@ -92,6 +103,28 @@ border: black solid 2px;
     background-color: red; 
 }
 
+/* FUNCTION DESIGN */ 
+.show-grid div:nth-child(3)::after { content: 'A '; }
+.show-grid div:nth-child(4)::after { content: 'R'; }
+.show-grid div:nth-child(5)::after { content: 'T'; }
+    
+
+.show-grid div:nth-child(22)::after { content: 'F '; }
+.show-grid div:nth-child(23)::after { content: 'U'; }
+.show-grid div:nth-child(24)::after { content: 'N'; }
+.show-grid div:nth-child(25)::after { content: 'C'; }
+.show-grid div:nth-child(26)::after { content: 'T'; }
+.show-grid div:nth-child(27)::after { content: 'I'; }
+.show-grid div:nth-child(28)::after { content: 'O'; }
+.show-grid div:nth-child(29)::after { content: 'N'; }
+
+
+.show-grid div:nth-child(44)::after { content: 'D'; }
+.show-grid div:nth-child(45)::after { content: 'E'; }
+.show-grid div:nth-child(46)::after { content: 'S'; }
+.show-grid div:nth-child(47)::after { content: 'I'; }
+.show-grid div:nth-child(48)::after { content: 'G'; }
+.show-grid div:nth-child(49)::after { content: 'N'; }
 
 .expand span:hover {
     font-size: 30px;
