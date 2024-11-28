@@ -21,7 +21,7 @@ h1 {
       }
     
       .grid div {
-        border: black 0.1em solid;             
+        border: rgb(188, 17, 17) 0.1em solid;             
         width: 100%;                          
         height: auto;                         
       }

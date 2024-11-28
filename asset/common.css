@@ -105,30 +105,46 @@ h1 {
     font-family: "Righteous", sans-serif;
     color: black;
     }
-    
-    .info {
-        display: flex;
-        flex-direction: row;
-        width: 100%; 
-        justify-content: center;  
-        align-items: center; 
-        border: solid 3px black;
-        margin-top:4%;
-        margin-bottom:4%;
-        }
+  
 
-    .author .date {
-        text-align: center;
-        align-items: center;
+    .info {
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    justify-content: center;  
+    align-items: center; 
+    border: solid 3px black;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.author, .date {
+     
+    justify-content: center;  
+    align-items: center;     
+    text-align: center;      
+    padding: 10px; 
+    width: 100%; 
+}
+
+.author {
+    border-right: solid black 2px;  
+}
+
+        justify-content: center;  
+        align-items: center;     
+        text-align: center;      
         padding: 10px; 
         width: 100%; 
     }
     
     .author {
-        border-right: solid black 2px;
+        border-right: solid black 2px;  
     }
+    
+   
     h2 {
-        color: blue;
+        color: rgb(11, 86, 192); ;
     font-size: 3em;
     padding-left: 2%;
     padding-top: 2%;

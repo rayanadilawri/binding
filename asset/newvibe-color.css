@@ -10,7 +10,7 @@
   }
 
   .grid div {
-    border: black 0.3em solid;             
+    border: rgb(84, 4, 4) 0.3em solid;             
     width: 100%;                          
     height: auto;                         
   }

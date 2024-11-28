@@ -67,7 +67,7 @@ border: black solid 2px;
   }
 
   .grid div {
-    border: black 0.1em solid;             
+    border: rgb(5, 38, 92) 0.1em solid;             
     width: 100%;                          
     height: auto;                      
   }
@@ -84,7 +84,7 @@ border: black solid 2px;
     justify-content: center;
 
     font-size: 2.5em;
-    color: rgb(0, 0, 0);
+    color: rgb(6, 49, 91);
     Font-family: arial;  
     align-items: center; 
 }
@@ -100,7 +100,7 @@ border: black solid 2px;
     height: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color: red; 
+    background-color: rgb(11, 86, 192); 
 }
 
 /* FUNCTION DESIGN */ 
@@ -126,6 +126,92 @@ border: black solid 2px;
 .show-grid div:nth-child(48)::after { content: 'G'; }
 .show-grid div:nth-child(49)::after { content: 'N'; }
 
+/* colour design*/ 
+:root {
+    --color-1: #e7f3f9; 
+    --color-2: #d5ebf6;
+    --color-3: #c2e6f9;
+    --color-4: #b2e2fc;
+    --color-5: #9cd7f6;
+    --color-6: #8ad1f7;
+    --color-7: #7acbf7;
+    --color-8: #6cc7f8;
+    --color-9: #59c0f8;
+    --color-10: #3cb2f2;
+}
+
+.show-grid div:nth-child(1) { background-color: var(--color-1); }
+.show-grid div:nth-child(11) { background-color: var(--color-1); }
+.show-grid div:nth-child(21) { background-color: var(--color-1); }
+.show-grid div:nth-child(31) { background-color: var(--color-1); }
+.show-grid div:nth-child(41) { background-color: var(--color-1); }
+.show-grid div:nth-child(51) { background-color: var(--color-1); }
+
+
+.show-grid div:nth-child(2) { background-color: var(--color-2); }
+.show-grid div:nth-child(12) { background-color: var(--color-2); }
+.show-grid div:nth-child(22) { background-color: var(--color-2); }
+.show-grid div:nth-child(32) { background-color: var(--color-2); }
+.show-grid div:nth-child(42) { background-color: var(--color-2); }
+.show-grid div:nth-child(52) { background-color: var(--color-2); }
+
+
+.show-grid div:nth-child(3) { background-color: var(--color-3); }
+.show-grid div:nth-child(13) { background-color: var(--color-3); }
+.show-grid div:nth-child(23) { background-color: var(--color-3); }
+.show-grid div:nth-child(33) { background-color: var(--color-3); }
+.show-grid div:nth-child(43) { background-color: var(--color-3); }
+.show-grid div:nth-child(53) { background-color: var(--color-3); }
+
+.show-grid div:nth-child(4) { background-color: var(--color-4); }
+.show-grid div:nth-child(14) { background-color: var(--color-4); }
+.show-grid div:nth-child(24) { background-color: var(--color-4); }
+.show-grid div:nth-child(34) { background-color: var(--color-4); }
+.show-grid div:nth-child(44) { background-color: var(--color-4); }
+.show-grid div:nth-child(54) { background-color: var(--color-4); }
+
+.show-grid div:nth-child(5) { background-color: var(--color-5); }
+.show-grid div:nth-child(15) { background-color: var(--color-5); }
+.show-grid div:nth-child(25) { background-color: var(--color-5); }
+.show-grid div:nth-child(35) { background-color: var(--color-5); }
+.show-grid div:nth-child(45) { background-color: var(--color-5); }
+.show-grid div:nth-child(55) { background-color: var(--color-5); }
+
+.show-grid div:nth-child(6) { background-color: var(--color-6); }
+.show-grid div:nth-child(16) { background-color: var(--color-6); }
+.show-grid div:nth-child(26) { background-color: var(--color-6); }
+.show-grid div:nth-child(36) { background-color: var(--color-6); }
+.show-grid div:nth-child(46) { background-color: var(--color-6); }
+.show-grid div:nth-child(56) { background-color: var(--color-6); }
+
+.show-grid div:nth-child(7) { background-color: var(--color-7); }
+.show-grid div:nth-child(17) { background-color: var(--color-7); }
+.show-grid div:nth-child(27) { background-color: var(--color-7); }
+.show-grid div:nth-child(37) { background-color: var(--color-7); }
+.show-grid div:nth-child(47) { background-color: var(--color-7); }
+.show-grid div:nth-child(57) { background-color: var(--color-7); }
+
+.show-grid div:nth-child(8) { background-color: var(--color-8); }
+.show-grid div:nth-child(18) { background-color: var(--color-8); }
+.show-grid div:nth-child(28) { background-color: var(--color-8); }
+.show-grid div:nth-child(38) { background-color: var(--color-8); }
+.show-grid div:nth-child(48) { background-color: var(--color-8); }
+.show-grid div:nth-child(58) { background-color: var(--color-8); }
+
+.show-grid div:nth-child(9) { background-color: var(--color-9); }
+.show-grid div:nth-child(19) { background-color: var(--color-9); }
+.show-grid div:nth-child(29) { background-color: var(--color-9); }
+.show-grid div:nth-child(39) { background-color: var(--color-9); }
+.show-grid div:nth-child(49) { background-color: var(--color-9); }
+.show-grid div:nth-child(59) { background-color: var(--color-9); }
+
+.show-grid div:nth-child(10) { background-color: var(--color-10); }
+.show-grid div:nth-child(20) { background-color: var(--color-10); }
+.show-grid div:nth-child(30) { background-color: var(--color-10); }
+.show-grid div:nth-child(40) { background-color: var(--color-10); }
+.show-grid div:nth-child(50) { background-color: var(--color-10); }
+.show-grid div:nth-child(60) { background-color: var(--color-10); }
+
 .expand span:hover {
     font-size: 30px;
     transition: 0.3s;
@@ -147,7 +233,7 @@ body {
     height: 500px;
     width: 500px;
     transform: translateX(-50%) translateY(-50%); 
-    background-image: conic-gradient(rgb(236, 135, 240), rgb(242, 170, 216), rgb(182, 75, 240), rgb(195, 46, 228), rgb(241, 177, 247));
+    background-image: conic-gradient( #d0e7f9, #8db8e0, #4a8bc8, #006bb3, #004d82, #00355a, #d0e7f9, #4a8bc8, #006bb3, #004d82 );
     animation: 3.0s linear infinite record;
     animation-play-state: running; 
     border: solid 2px white;
@@ -170,8 +256,8 @@ body {
     height: 500px;
     width: 500px;
  transform: translateX(-50%) translateY(-50%); 
-    background-image:conic-gradient(rgb(112, 201, 239),rgb(56, 111, 238),rgb(7, 34, 155), rgb(142, 156, 247), rgb(144, 133, 244));
-    animation: 3.0s linear infinite record;
+ background-image: conic-gradient( #f9d0d0, #e78c8c, #c84a4a, #b30000, #820000, #5a0000, #f9d0d0, #c84a4a, #b30000, #820000 );
+ animation: 3.0s linear infinite record;
     border: solid 2px white;   
      border-radius: 50%;
     display: flex;         
@@ -192,8 +278,8 @@ body {
     height: 500px;
     width: 500px;
  transform: translateX(-50%) translateY(-50%); 
-    background-image:conic-gradient(rgb(249, 196, 121),rgb(254, 56, 56),rgb(250, 251, 155), rgb(228, 46, 98), rgb(248, 255, 173));
-    animation: 3.0s linear infinite record;
+ background-image: conic-gradient( #f9f2d0, #e0d17f, #c8b24a, #b3a000, #828000, #5a5a00, #f9f2d0, #c8b24a, #b3a000, #828000 );
+ animation: 3.0s linear infinite record;
     border: solid 2px white;    border-radius: 50%;
     display: flex;         
     justify-content: center;
@@ -210,7 +296,7 @@ body {
 
 
 .card {
-    background-color: rgb(150, 150, 236); 
+    background-color: rgb(117, 197, 237); 
     border: 1px solid black; 
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
