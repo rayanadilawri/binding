@@ -27,7 +27,7 @@
 :root {
     --color-1: #FFE4E9; 
     --color-2: #FFB3C1;
-    --color-3: #FF8095;
+    --color-3: #fe738a;
     --color-4: #f76f86;
     --color-5: #f55c76;
     --color-6: #f25670;
@@ -51,5 +51,28 @@
 .color-grid div:nth-child(32) { background-color: var(--color-2); }
 .color-grid div:nth-child(42) { background-color: var(--color-2); }
 .color-grid div:nth-child(52) { background-color: var(--color-2); }
+
+
+.color-grid div:nth-child(3) { background-color: var(--color-3); }
+.color-grid div:nth-child(13) { background-color: var(--color-3); }
+.color-grid div:nth-child(23) { background-color: var(--color-3); }
+.color-grid div:nth-child(33) { background-color: var(--color-3); }
+.color-grid div:nth-child(43) { background-color: var(--color-3); }
+.color-grid div:nth-child(53) { background-color: var(--color-3); }
+
+.color-grid div:nth-child(4) { background-color: var(--color-4); }
+.color-grid div:nth-child(14) { background-color: var(--color-4); }
+.color-grid div:nth-child(24) { background-color: var(--color-4); }
+.color-grid div:nth-child(34) { background-color: var(--color-4); }
+.color-grid div:nth-child(44) { background-color: var(--color-4); }
+.color-grid div:nth-child(54) { background-color: var(--color-4); }
+
+.color-grid div:nth-child(5) { background-color: var(--color-4); }
+.color-grid div:nth-child(15) { background-color: var(--color-4); }
+.color-grid div:nth-child(25) { background-color: var(--color-4); }
+.color-grid div:nth-child(35) { background-color: var(--color-4); }
+.color-grid div:nth-child(45) { background-color: var(--color-4); }
+.color-grid div:nth-child(54) { background-color: var(--color-4); }
+
 
 
