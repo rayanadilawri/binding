@@ -30,6 +30,63 @@ nav {
     z-index: 1000;
 }
 
+nav {
+    /* overflow: hidden; */
+    background-color:white;
+    color: black;
+    font-size: 2em;
+    height: 100px;
+    padding:0px;
+    text-transform: none;
+    font-family: "Mohave", sans-serif;
+    border: black solid 2px;
+    position: absolute;
+      }
+
+nav a {
+    float: left;
+    font-size: 2em;
+}
+
+.dropdown {
+    float: left;
+    padding: 10px;
+    /* overflow: hidden; */
+}
+
+.dropdown-content {
+display: none;
+position: fixed;
+z-index: 100;
+background-color: white;
+border: black solid 2px;
+}
+
+.dropdown-content a {
+    float: none;
+    display: block;
+    padding: 20px;
+}
+
+
+.dropdown-content a:hover {
+  color: blue;
+  font-family: "Pinyon Script", serif;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-button {
+    padding: 0px 20px;
+}
+
+.nav-button:hover {
+    color: blue; 
+    background-color: #A2C9E2;
+}
+
 .dropdown .nav-button {
     margin: 0;
     font-size: 2em;
@@ -65,6 +122,14 @@ h3 {
 
 p {
     font-size: 2em;
+    font-family: "Nunito Sans", serif;
+}
+
+blockquote {
+    font-size: 3em;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: "Mohave", sans-serif;
 }
 
 .custom-br {
@@ -100,7 +165,7 @@ p {
     padding: 10px 15px;
     font-size: 14px;  
     z-index: 1000;
-    font-family: "Mohave", sans-serif;
+    font-family: "Nunito Sans", serif;
 }
 
 #back-to-top {
