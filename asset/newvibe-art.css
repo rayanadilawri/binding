@@ -14,6 +14,7 @@
     margin-top: 50px;                   
   }
   
+
   /*grid*/ 
   .grid div {
     border: black 0.1em solid;             
@@ -38,9 +39,9 @@
     width: 50%;
     height: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 50%; 
 
     background-color: red; 
-    border-radius: 50%; 
 }
 
 /* TRIANGLE SHAPE */ 
@@ -49,12 +50,11 @@
     position: absolute;
     top: 60%;
     left: 50%;
-    border-left: 25px solid ;
-    border-right: 25px solid ;
-    border-bottom: 40px solid blue; 
     transform: translate(-50%, -50%);
-    background-color: white;
-    
+
+    border-bottom: 40px solid blue; 
+    border-left: 25px solid transparent ;
+    border-right: 25px solid transparent;
 }
 
 nav {
