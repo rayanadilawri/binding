@@ -117,7 +117,7 @@ h1 {
         margin-botton:4%;
         }
 
-    .author, .date {
+    .author .date {
         text-align: center;
         align-items: center;
         padding: 10px; 
