@@ -176,6 +176,42 @@ blockquote {
     margin: 10px 0;       /* Optional: Adds space above and below the line */
   }
   
+  .sticky-chapter {
+    border: 2px solid black;
+    position: sticky;
+    top:0;
+}
+
+.sticky-chapter1 {
+    border: 2px solid black;
+    position: sticky;
+    top:1;
+}
+
+
+.sticky-chapter2 {
+    border: 2px solid black;
+    position: sticky;
+    top:2;
+}
+
+.sticky-chapter3 {
+    border: 2px solid black;
+    position: sticky;
+    top:3;
+}
+
+.sticky-chapter4 {
+    border: 2px solid black;
+    position: sticky;
+    top:4;
+}
+
+.sticky-chapter5 {
+    border: 2px solid black;
+    position: sticky;
+    top:5;
+}
 
 .cards {
     display: flex;

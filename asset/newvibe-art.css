@@ -59,50 +59,32 @@
 
 
 .sticky-chapter {
-    border: 2px solid black;
-    position: sticky;
-    top:0;
     background-color: blue;
     color: white;
 }
 
 .sticky-chapter1 {
-    border: 2px solid black;
-    position: sticky;
-    top:1;
     background-color: yellow;
     color: white;
 }
 
 
 .sticky-chapter2 {
-    border: 2px solid black;
-    position: sticky;
-    top:2;
     background-color: red;
     color: white;
 }
 
 .sticky-chapter3 {
-    border: 2px solid black;
-    position: sticky;
-    top:3;
     background-color: blue;
     color: white;
 }
 
 .sticky-chapter4 {
-    border: 2px solid black;
-    position: sticky;
-    top:4;
     background-color: yellow;
     color: white;
 }
 
 .sticky-chapter5 {
-    border: 2px solid black;
-    position: sticky;
-    top:5;
     background-color: red;
     color: white;
 }

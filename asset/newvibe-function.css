@@ -53,3 +53,35 @@ to fix - figure out if i do before or after*/
 .function-grid div:nth-child(38)::after { content: 'M'; }
 .function-grid div:nth-child(39)::after { content: 'A'; }
 .function-grid div:nth-child(40)::after { content: 'N'; }
+
+
+.sticky-chapter {
+    background-color: rgb(188, 17, 17);
+    color: white;
+}
+
+.sticky-chapter1 {
+    background-color: black;
+    color: white;
+}
+
+
+.sticky-chapter2 {
+    background-color:rgb(188, 17, 17);
+    color: white;
+}
+
+.sticky-chapter3 {
+    background-color: black;
+    color: white;
+}
+
+.sticky-chapter4 {
+    background-color: rgb(188, 17, 17);
+    color: white;
+}
+
+.sticky-chapter5 {
+    background-color: black;
+    color: white;
+}

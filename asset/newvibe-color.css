@@ -108,3 +108,29 @@
 .color-grid div:nth-child(40) { background-color: var(--color-10); }
 .color-grid div:nth-child(50) { background-color: var(--color-10); }
 .color-grid div:nth-child(60) { background-color: var(--color-10); }
+
+
+.sticky-chapter1 {
+    background-color: #FFB3C1;
+    color: #b60825;
+}
+
+.sticky-chapter2 {
+    background-color: #f76f86;
+    color: #b60825;
+}
+
+.sticky-chapter3 {
+    background-color: #f55c76;
+    color: #b60825;
+}
+
+.sticky-chapter4 {
+    background-color: f25670;
+    color: #b60825;
+}
+
+.sticky-chapter5 {
+    background-color:f25670;
+    color: #b60825;
+}
