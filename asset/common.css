@@ -146,8 +146,8 @@ h1 {
     h2 {
     color: rgb(11, 86, 192); ;
     font-size: 3em;
-    padding-left: 2%;
-    padding-top: 2%;
+    padding-left: 4%em;
+    padding-top: 4%em;
 }
 
 h3 {
@@ -157,8 +157,9 @@ h3 {
 }
 
 p {
-    font-size: 2em;
+    font-size: 2.2em;
     font-family: "Nunito Sans", serif;
+    padding: 2%;
 }
 
 blockquote {
@@ -191,12 +192,14 @@ blockquote {
     border: 2px solid black;
     position: sticky;
     top:0;
+    padding: 1%;
 }
 
 .sticky-chapter1 {
     border: 2px solid black;
     position: sticky;
     top:1;
+    padding: 1%;
 }
 
 
@@ -204,24 +207,28 @@ blockquote {
     border: 2px solid black;
     position: sticky;
     top:2;
+    padding: 1%;
 }
 
 .sticky-chapter3 {
     border: 2px solid black;
     position: sticky;
     top:3;
+    padding: 1%;
 }
 
 .sticky-chapter4 {
     border: 2px solid black;
     position: sticky;
     top:4;
+    padding: 1%;
 }
 
 .sticky-chapter5 {
     border: 2px solid black;
     position: sticky;
     top:5;
+    padding: 1%;
 }
 
 .cards {
