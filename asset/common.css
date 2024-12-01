@@ -238,10 +238,7 @@ blockquote {
     align-items: center; 
 }
 
-.card:hover {
-    background-color: rgb(7, 18, 130);
-    color: white;
-}
+
 
 #back-to-top {
     height: 40px;
