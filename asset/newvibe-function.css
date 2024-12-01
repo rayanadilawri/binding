@@ -79,3 +79,6 @@ to fix - figure out if i do before or after*/
 .sticky-chapter5 {
     background-color: black;
 }
+
+@media (min-width:1200px) {
+} 

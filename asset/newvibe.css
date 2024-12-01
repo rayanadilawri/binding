@@ -297,7 +297,6 @@ body {
     animation-play-state: paused; 
 }
 
-
 .card {
     background-color: rgb(117, 197, 237); 
     border: 1px solid black; 
@@ -311,8 +310,6 @@ body {
     margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    
-
 }
   
 /* Keyframes for animation */
@@ -325,3 +322,8 @@ body {
     }
 }
 
+
+@media (min-width:1200px) {
+
+
+} 
