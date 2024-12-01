@@ -129,9 +129,7 @@ h1 {
 
 .author {
     border-right: solid black 2px;  
-}
-
-        justify-content: center;  
+       justify-content: center;  
         align-items: center;     
         text-align: center;      
         padding: 10px; 
@@ -274,9 +272,9 @@ blockquote {
 .sha
 
 @media (min-width:1200px) {
+
     nav { 
-      font-size: 28px;
-    }
+      font-size: 28px; }
 
     h2 {
         font-size: 35px;

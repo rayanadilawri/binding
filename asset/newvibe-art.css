@@ -189,6 +189,13 @@ p {
     margin-right: 10%;
 }
 
+ .cards {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+} 
+
 #back-to-top {
     background-color: rgb(242, 159, 43);
     color: white; 
