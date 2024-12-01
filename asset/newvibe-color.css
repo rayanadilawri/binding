@@ -136,4 +136,23 @@
 }
 
 @media (min-width:1200px) {
+
+    :root {
+        --color-1: #FFF9E4; 
+        --color-2: #FFEAB3;
+        --color-3: #f7d673;
+        --color-4: #FFD76F;
+        --color-5: #FFCC5C;
+        --color-6: #FFC756;
+        --color-7: #FFB536;
+        --color-8: #FFA71B;
+        --color-9: #da8e14;
+        --color-10: #c57c06; 
+        
+    }
+
+    .grid div {
+        border: #6a4202 0.3em solid;                                   
+      }
+    
 } 
