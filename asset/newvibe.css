@@ -12,6 +12,7 @@ nav {
     text-transform: none;
     font-family: "Mohave", sans-serif;
     border: black solid 2px;
+
       }
 
 nav a {
@@ -66,11 +67,12 @@ border: black solid 2px;
     width: 100%;                          
     height: auto;                                                                 
     aspect-ratio: 2;  
-    margin-top: 100px;                    
+    margin-top: 100px;  
+                  
   }
 
   .grid div {
-    border: rgb(5, 38, 92) 0.1em solid;             
+    border: rgb(6, 54, 131) 0.1em solid;             
     width: 100%;                          
     height: auto;                      
   }

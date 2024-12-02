@@ -17,7 +17,7 @@
   }
 
   .grid div {
-    border: black 0.3em solid;             
+    border: rgb(5, 12, 142) 0.3em solid;             
     width: 100%;                          
     height: auto;                         
   }
