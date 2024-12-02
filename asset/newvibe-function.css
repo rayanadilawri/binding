@@ -87,7 +87,7 @@ to fix - figure out if i do before or after*/
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     padding: 20px; 
     width: 800px; 
-    height: 600px;
+    height: 100%;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -103,6 +103,7 @@ to fix - figure out if i do before or after*/
 } 
 
 @media (min-width:1200px) {
+
 
     .grid .function-grid{
         display: grid;
@@ -148,4 +149,10 @@ to fix - figure out if i do before or after*/
 .function-grid div:nth-child(39)::after { content: 'A'; }
 .function-grid div:nth-child(40)::after { content: 'N'; }
 
-} 
+.cards {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+}
+}

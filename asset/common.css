@@ -149,7 +149,7 @@ h1 {
 }
 
 h3 {
-    font-size: 3em;
+    font-size: 3.5em;
     color: white; 
     font-family: "Pinyon Script", serif;
 }
@@ -272,6 +272,12 @@ blockquote {
 .sha
 
 @media (min-width:1200px) {
+
+    p {
+        font-size: 1.5em;
+        font-family: "Nunito Sans", serif;
+        padding: 2%;
+    }
 
     nav { 
       font-size: 28px; }

@@ -110,30 +110,55 @@
 .color-grid div:nth-child(60) { background-color: var(--color-10); }
 
 
+
+.sticky-chapter {
+    background-color: #f6d6dc;
+}
+
 .sticky-chapter1 {
     background-color: #FFB3C1;
-    color: #b60825;
 }
 
 .sticky-chapter2 {
     background-color: #f76f86;
-    color: #b60825;
 }
 
 .sticky-chapter3 {
     background-color: #f55c76;
-    color: #b60825;
 }
 
 .sticky-chapter4 {
-    background-color: #f25670;
-    color: #b60825;
+    background-color: #f8516c;
 }
 
 .sticky-chapter5 {
-    background-color:#f25670;
-    color: #b60825;
+    background-color:#f34260;
 }
+
+
+
+.card {
+    background-color: rgb(169, 8, 8); 
+    color: white;
+    border: 1px solid black; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    width: 800px; 
+    height: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ .cards {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+} 
 
 @media (min-width:1200px) {
 
