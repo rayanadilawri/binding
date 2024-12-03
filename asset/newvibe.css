@@ -235,8 +235,8 @@ body {
 
 
 .shape1 {
-    height: 500px;
-    width: 500px;
+    height: 350px;
+    width: 350px;
     transform: translateX(-50%) translateY(-50%); 
     background-image: conic-gradient( #d0e7f9, #8db8e0, #4a8bc8, #006bb3, #004d82, #00355a, #d0e7f9, #4a8bc8, #006bb3, #004d82 );
     animation: 3.0s linear infinite record;
@@ -258,8 +258,8 @@ body {
 }
 
 .shape2 {
-    height: 500px;
-    width: 500px;
+    height: 350px;
+    width: 350px;
  transform: translateX(-50%) translateY(-50%); 
  background-image: conic-gradient( #f9d0d0, #e78c8c, #c84a4a, #b30000, #820000, #5a0000, #f9d0d0, #c84a4a, #b30000, #820000 );
  animation: 3.0s linear infinite record;
@@ -280,8 +280,8 @@ body {
 
 
 .shape3 {
-    height: 500px;
-    width: 500px;
+    height: 350px;
+    width: 350px;
  transform: translateX(-50%) translateY(-50%); 
  background-image: conic-gradient( #f9f2d0, #e0d17f, #c8b24a, #b3a000, #828000, #5a5a00, #f9f2d0, #c8b24a, #b3a000, #828000 );
  animation: 3.0s linear infinite record;
@@ -303,7 +303,7 @@ body {
     border: 1px solid black; 
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    padding: 20px; 
+    padding: 10px; 
     width: 800px; 
     height: 100%;
     text-align: center;
@@ -318,14 +318,17 @@ body {
 
 .card {
     background-color: #3cb2f2;
+    transform: rotate(-5deg);
 }
 
 .card2 {
     background-color: #bb3333;
+    transform: rotate(6deg);
 }
 
 .card3 {
     background-color: #e6ea1f;
+    transform: rotate(-6deg);
 }
   
 /* Keyframes for animation */
@@ -340,6 +343,28 @@ body {
 
 
 @media (min-width:1200px) {
+    .cards {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 20px;
+    }
+
+    .shapes {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 20px;
+        gap: 100px;
+    }
+        
+    .shapes {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
 
 
 } 
