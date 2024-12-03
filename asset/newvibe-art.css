@@ -64,7 +64,6 @@
 
 .sticky-chapter1 {
     background-color: yellow;
-   
 }
 
 
@@ -214,7 +213,6 @@ blockquote {
         transform: rotate(360deg);
     }
 }
-
 
 @media only screen and (min-width:1200px) {
 
