@@ -299,8 +299,7 @@ body {
     animation-play-state: paused; 
 }
 
-.card {
-    background-color: rgb(117, 197, 237); 
+.card, .card2, .card3{
     border: 1px solid black; 
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -315,6 +314,18 @@ body {
 
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.card {
+    background-color: #3cb2f2;
+}
+
+.card2 {
+    background-color: #bb3333;
+}
+
+.card3 {
+    background-color: #e6ea1f;
 }
   
 /* Keyframes for animation */
