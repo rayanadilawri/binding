@@ -109,7 +109,8 @@ border: black solid 2px;
 }
 
 /* FUNCTION DESIGN */ 
-.show-grid div:nth-child(3)::after { content: 'A '; }
+
+.show-grid div:nth-child(3)::after { content: 'A'; }
 .show-grid div:nth-child(4)::after { content: 'R'; }
 .show-grid div:nth-child(5)::after { content: 'T'; }
     
