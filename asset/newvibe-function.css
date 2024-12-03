@@ -102,7 +102,7 @@ to fix - figure out if i do before or after*/
     align-items: center; 
 } 
 
-@media (min-width:1200px) {
+@media only screen and (min-width:1200px) {
 
 
     .grid .function-grid{

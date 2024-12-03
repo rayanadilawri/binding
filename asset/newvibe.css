@@ -235,8 +235,8 @@ body {
 
 
 .shape1 {
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
     transform: translateX(-50%) translateY(-50%); 
     background-image: conic-gradient( #d0e7f9, #8db8e0, #4a8bc8, #006bb3, #004d82, #00355a, #d0e7f9, #4a8bc8, #006bb3, #004d82 );
     animation: 3.0s linear infinite record;
@@ -248,7 +248,7 @@ body {
     align-items: center;   
     text-align: center;    
     color: black; 
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -258,8 +258,8 @@ body {
 }
 
 .shape2 {
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
  transform: translateX(-50%) translateY(-50%); 
  background-image: conic-gradient( #f9d0d0, #e78c8c, #c84a4a, #b30000, #820000, #5a0000, #f9d0d0, #c84a4a, #b30000, #820000 );
  animation: 3.0s linear infinite record;
@@ -271,7 +271,7 @@ body {
     text-align: center;    
     color: black; 
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .shape2:hover {
@@ -280,8 +280,8 @@ body {
 
 
 .shape3 {
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
  transform: translateX(-50%) translateY(-50%); 
  background-image: conic-gradient( #f9f2d0, #e0d17f, #c8b24a, #b3a000, #828000, #5a5a00, #f9f2d0, #c8b24a, #b3a000, #828000 );
  animation: 3.0s linear infinite record;
@@ -292,7 +292,7 @@ body {
     text-align: center;    
     color: black; 
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .shape3:hover {
@@ -324,13 +324,17 @@ body {
 }
 
 
-@media (min-width:1200px) {
+@media only screen and (min-width:1200px) {
     .cards {
         display: flex;
         flex-direction: row; 
         justify-content: center; 
         align-items: center; 
         padding-top: 20px;
+    }
+
+    .card, .card2, .card3 {
+        font-size: 20px;
     }
 
     .shapes {
@@ -348,5 +352,15 @@ body {
         align-items: center; 
     }
 
+    .shape1 {
+        height: 350px;
+        width: 350px;}
+        
+    .shape2 {
+    height: 350px;
+    width: 350px;}
 
+    .shape3 {
+        height: 350px;
+        width: 350px;}
 } 

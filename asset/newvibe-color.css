@@ -112,27 +112,27 @@
 
 
 .sticky-chapter {
-    background-color: #f6d6dc;
+    background-color: var(--color-1);
 }
 
 .sticky-chapter1 {
-    background-color: #FFB3C1;
+    background-color: var(--color-2);
 }
 
 .sticky-chapter2 {
-    background-color: #f76f86;
+    background-color: var(--color-3);
 }
 
 .sticky-chapter3 {
-    background-color: #f55c76;
+    background-color: var(--color-4);
 }
 
 .sticky-chapter4 {
-    background-color: #f8516c;
+    background-color: var(--color-5);
 }
 
 .sticky-chapter5 {
-    background-color:#f34260;
+    background-color: var(--color-6);
 }
 
 
@@ -207,7 +207,7 @@
     font-weight: bold;
 }rgb(218, 143, 241)
 
-@media (min-width:1200px) {
+@media only screen and (min-width:1200px) {
 
     :root {
         --color-1: #FFF9E4; 
@@ -219,8 +219,7 @@
         --color-7: #FFB536;
         --color-8: #FFA71B;
         --color-9: #da8e14;
-        --color-10: #c57c06; 
-        
+        --color-10: #c57c06;    
     }
 
     .grid div {

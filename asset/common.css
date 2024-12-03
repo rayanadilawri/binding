@@ -96,8 +96,8 @@ header {
 }  
 
 h1 {
-    font-size: 8em;
-    padding-top: 2%;
+    font-size: 6em;
+    padding-top: 1%;
     padding-left: 2%;
     font-weight: 800; 
     overflow-x: hidden;
@@ -112,8 +112,8 @@ h1 {
     justify-content: center;  
     align-items: center; 
     border: solid 3px black;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .author, .date {
@@ -132,8 +132,8 @@ h1 {
     h2 {
     color: rgb(11, 86, 192); ;
     font-size: 3em;
-    padding-left: 4%em;
-    padding-top: 4%em;
+    padding-left: 4%;
+    padding-top: 1%;
 }
 
 h3 {
@@ -143,22 +143,21 @@ h3 {
 }
 
 p {
-    font-size: 2.2em;
+    font-size: 2em;
     font-family: "Nunito Sans", serif;
-    padding: 2%;
+    padding: 1%;
 }
 
 blockquote {
     font-size: 3em;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-left: 2%;
     font-family: "Mohave", sans-serif;
 }
 
 .custom-br {
     display: block;      
     width: 100%;          /* Full-width line */
-    height: 2px;          /* Thickness of the line */
+    height: 3px;          /* Thickness of the line */
     background-color: black; /* Line color */
     margin: 10px 0;       /* Optional: Adds space above and below the line */
   }
@@ -229,24 +228,24 @@ blockquote {
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     padding: 10px; 
-    width: 800px; 
+    width: 500px; 
     height: 100%;
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
 .card {
-    background-color: #3cb2f2;
+    background-color: #199be1;
 }
 
 .card2 {
-    background-color: #bb3333;
+    background-color: #c63e3e;
 }
 
 .card3 {
@@ -285,12 +284,17 @@ blockquote {
     gap: 100px;
 }
 
-
+.highlight {
+    background-color: yellow;
+    color: black; 
+    font-size: 1.2em;
+    font-family: "Mohave", sans-serif;
+}
 
 @media only screen and (min-width:1200px) {
 
     p {
-        font-size: 1em;
+        font-size: 24px;
         /* font-family: "Nunito Sans", serif; */
         padding: 2%;
     }
@@ -321,15 +325,15 @@ blockquote {
       display: hide;
     }
 
-        .info {
-            display: flex;
-            flex-direction: row;
-            width: 100%; 
-            justify-content: center;  
-            align-items: center; 
-            border: solid 3px black;
-            margin-top: 4%;
-            margin-bottom: 4%;
+     .info {
+        display: flex;
+        flex-direction: row;
+        width: 100%; 
+        justify-content: center;  
+        align-items: center; 
+        border: solid 3px black;
+        margin-top: 4%;
+        margin-bottom: 4%;
 
     }
     
