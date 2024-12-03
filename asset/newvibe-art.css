@@ -201,8 +201,8 @@ blockquote {
 } 
 
 #back-to-top {
-    background-color: rgb(242, 159, 43);
-    color: white; 
+    background-color: yellow;
+    color: black; 
 }
   
 /* Keyframes for animation */

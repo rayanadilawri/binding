@@ -205,7 +205,12 @@
 .purple {
     color: rgb(218, 143, 241);
     font-weight: bold;
-}rgb(218, 143, 241)
+}
+
+#back-to-top {
+    background-color: var(--color-6);
+    color: white; 
+}
 
 @media only screen and (min-width:1200px) {
 

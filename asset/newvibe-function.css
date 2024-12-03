@@ -102,6 +102,11 @@ to fix - figure out if i do before or after*/
     align-items: center; 
 } 
 
+#back-to-top {
+    background-color: rgb(188, 17, 17);
+    color: white; 
+}
+  
 @media only screen and (min-width:1200px) {
 
 
@@ -151,8 +156,11 @@ to fix - figure out if i do before or after*/
 
 .cards {
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center; 
     align-items: center; 
+}
+.card {
+    width: fit-content;
 }
 }
