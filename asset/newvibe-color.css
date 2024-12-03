@@ -137,8 +137,7 @@
 
 
 
-.card {
-    background-color: rgb(169, 8, 8); 
+.card { 
     color: white;
     border: 1px solid black; 
     border-radius: 8px; 
@@ -159,6 +158,54 @@
     justify-content: center; 
     align-items: center; 
 } 
+
+.card {
+    background-color: #f55c76;
+}
+
+.card2 {
+    background-color: #f0a5b1;
+}
+.card2:hover {
+    background-color: #980820;
+    color: white;
+}
+
+.card3 {
+   background-color: #9e0516;  
+   color: white;
+}
+
+.red {
+    color: rgb(217, 92, 92);
+    font-weight: bold;
+}
+
+.orange {
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+
+.yellow {
+    color: rgb(239, 231, 9);
+    font-weight: bold;
+    
+}
+
+.green {
+    color: rgb(82, 215, 82);
+    font-weight: bold;
+}
+
+.blue {
+    color: rgb(143, 175, 241);
+    font-weight: bold;
+}
+
+.purple {
+    color: rgb(218, 143, 241);
+    font-weight: bold;
+}rgb(218, 143, 241)
 
 @media (min-width:1200px) {
 
