@@ -10,7 +10,7 @@
   }
 
   .grid div {
-    border: rgb(84, 4, 4) 0.3em solid;             
+    border:var(--color-8); 
     width: 100%;                          
     height: auto;                         
   }
@@ -35,6 +35,7 @@
     --color-8: #f11b3f;
     --color-9: #d6082b;
     --color-10: #b60825;
+    --color-11:rgb(84, 4, 4); 
 }
 
 .color-grid div:nth-child(1) { background-color: var(--color-1); }
@@ -135,8 +136,6 @@
     background-color: var(--color-6);
 }
 
-
-
 .card { 
     color: white;
     border: 1px solid black; 
@@ -160,19 +159,19 @@
 } 
 
 .card {
-    background-color: #f55c76;
+    background-color: var(--color-5);
 }
 
 .card2 {
-    background-color: #f0a5b1;
+    background-color: var(--color-4);
 }
 .card2:hover {
-    background-color: #980820;
+    background-color: var(--color-3);
     color: white;
 }
 
 .card3 {
-   background-color: #9e0516;  
+   background-color: var(--color-2); 
    color: white;
 }
 
@@ -187,7 +186,7 @@
 }
 
 .yellow {
-    color: rgb(239, 231, 9);
+    color: rgb(232, 235, 6);
     font-weight: bold;
     
 }
@@ -231,4 +230,18 @@
         border: #6a4202 0.3em solid;                                   
       }
     
+    .card {
+    color: black; 
+    }
+    
+    .card2 {
+    color: black;
+    }
+    .card2:hover {
+        color:black; 
+    }
+    
+    .card3 {
+    color: black;
+    }
 } 
