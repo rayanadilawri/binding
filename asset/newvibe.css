@@ -90,7 +90,7 @@ border: black solid 2px;
 
     font-size: 2.5em;
     color: rgb(6, 49, 91);
-    Font-family: arial;  
+    font-family: "Mohave", sans-serif;
     align-items: center; 
 }
 
@@ -326,7 +326,7 @@ body {
 
 
 @media only screen and (min-width:1200px) {
-
+    
     h3 {
         line-height: 95%;
     }

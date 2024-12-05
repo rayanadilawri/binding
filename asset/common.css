@@ -284,6 +284,10 @@ blockquote {
     font-family: "Mohave", sans-serif;
 }
 
+footer {
+    text-align: center;
+}
+
 @media only screen and (min-width:1200px) {
 
     .sticky-chapter {
