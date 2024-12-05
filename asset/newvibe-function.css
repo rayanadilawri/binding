@@ -82,17 +82,7 @@ to fix - figure out if i do before or after*/
 .card {
     background-color: rgb(7, 7, 97); 
     color: white;
-    border: 1px solid black; 
-    border-radius: 8px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    padding: 20px; 
-    width: 800px; 
-    height: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+  
 }
 
  .cards {

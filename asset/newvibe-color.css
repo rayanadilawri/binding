@@ -125,15 +125,15 @@
 }
 
 .sticky-chapter3 {
-    background-color: var(--color-4);
-}
-
-.sticky-chapter4 {
     background-color: var(--color-5);
 }
 
+.sticky-chapter4 {
+    background-color: var(--color-7);
+}
+
 .sticky-chapter5 {
-    background-color: var(--color-6);
+    background-color: var(--color-9);
 }
 
 .card { 
@@ -167,12 +167,12 @@
 }
 .card2:hover {
     background-color: var(--color-3);
-    color: white;
+    color: black;
 }
 
 .card3 {
    background-color: var(--color-2); 
-   color: white;
+   color: black;
 }
 
 .red {
