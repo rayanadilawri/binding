@@ -87,10 +87,11 @@
 
 }
 
-p {
-    font-size: 2.2em;
-    padding-left: 2%;
+.content {
     font-family: "Nunito Sans", serif;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
 }
  
 blockquote {

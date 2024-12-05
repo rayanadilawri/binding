@@ -145,7 +145,8 @@ h3 {
 p {
     font-size: 2em;
     font-family: "Nunito Sans", serif;
-    padding: 0.05em;
+    padding-left: 0.04em;
+    padding-top: 0.04em;
 }
 
 blockquote {
@@ -214,6 +215,13 @@ blockquote {
     position: sticky;
     top:5;
     padding: 1%;
+}
+
+.content {
+    font-family: "Nunito Sans", serif;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
 }
 
 .cards {
@@ -325,11 +333,7 @@ footer {
         margin-left: 50%;
     }
 
-    p {
-        font-size: 24px;
-        /* font-family: "Nunito Sans", serif; */
-        padding: 0.2em;
-    }
+
 
     nav { 
       font-size: 28px; }
