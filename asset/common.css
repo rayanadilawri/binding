@@ -19,14 +19,12 @@ nav {
     justify-content: space-evenly;
     position: fixed;
     top: 0;
-    color: black;
     width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 2rem; 
     font-weight: 200;
-    font-size: 2.5em;
     z-index: 1000;
+
 }
 
 nav {
@@ -38,7 +36,9 @@ nav {
     padding:0px;
     text-transform: none;
     font-family: "Mohave", sans-serif;
-    border: black solid 2px;
+    border-left: black solid 2px;
+    border-right: black solid 2px;
+    border-top: black solid 2px;
     position: absolute;
       }
 
@@ -184,7 +184,7 @@ blockquote {
 .sticky-chapter1 {
     border: 2px solid black;
     position: sticky;
-    top:1;
+    top:0.1;
     padding: 1%;
 }
 
@@ -192,28 +192,28 @@ blockquote {
 .sticky-chapter2 {
     border: 2px solid black;
     position: sticky;
-    top:2;
+    top:0.2;
     padding: 1%;
 }
 
 .sticky-chapter3 {
     border: 2px solid black;
     position: sticky;
-    top:3;
+    top:0.3;
     padding: 1%;
 }
 
 .sticky-chapter4 {
     border: 2px solid black;
     position: sticky;
-    top:4;
+    top:0.4;
     padding: 1%;
 }
 
 .sticky-chapter5 {
     border: 2px solid black;
     position: sticky;
-    top:5;
+    top:0.5;
     padding: 1%;
 }
 
@@ -298,9 +298,18 @@ footer {
 
 @media only screen and (min-width:1200px) {
 
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+  
+
     .sticky-chapter {
       height: 100%;
       width: 50%;
+      box-sizing: border-box;
     }
     
     .sticky-chapter1 {
