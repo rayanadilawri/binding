@@ -132,8 +132,8 @@ h1 {
     h2 {
     color: rgb(11, 86, 192); ;
     font-size: 3em;
-    padding-left: 0.2em;
-    padding-top:0.05em;
+    margin-left: 0.2em;
+    margin-top:0.05em;
 }
 
 h3 {
@@ -303,7 +303,18 @@ footer {
     text-align: center;
 }
 
+.custom-br {
+    margin-bottom: 1em;
+    margin-bottom: 1em;
+}
+
 @media only screen and (min-width:1200px) {
+
+    .halfpage p, .halfpage h4, .halfpage h2{
+        margin-left: 12rem;
+        margin-right: 12rem;
+        text-align: left;
+    }
 
     p {
         font-size: 1.5em;
