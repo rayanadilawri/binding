@@ -4,6 +4,7 @@
     font-style: normal;
   }
 
+
    /*grid*/ 
 
   .grid .art-grid{
@@ -86,20 +87,7 @@
     background-color: rgb(215, 14, 24);;
 
 }
- 
-blockquote {
-    font-family: "Mohave", sans-serif;
-    padding-left: 2%;
-    padding-top: 1%;
-}
 
-.expand span:hover {
-    font-size: 30px;
-    transition: 0.3s;
-    letter-spacing: 10px;
-    font-family: "Monoton", serif;
-    color: blue;
-}
 
 .shape1 {
     height: 500px;
@@ -170,9 +158,6 @@ blockquote {
     font-family: "Pinyon Script", serif;
     font-size: 40px;
 }
-
-
-
 
  .cards {
     display: flex;
