@@ -93,12 +93,11 @@ to fix - figure out if i do before or after*/
 } 
 
 #back-to-top {
-    background-color: rgb(188, 17, 17);
+    background-color: rgb(7, 7, 97);
     color: white; 
 }
   
 @media only screen and (min-width:1200px) {
-
 
     .grid .function-grid{
         display: grid;
