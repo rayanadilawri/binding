@@ -52,7 +52,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    border-bottom: 40px solid blue; 
+    border-bottom: 45px solid blue; 
     border-left: 25px solid transparent ;
     border-right: 25px solid transparent;
 }
@@ -100,7 +100,7 @@
     transform: translateX(-50%) translateY(-50%); 
     background-image: conic-gradient(rgb(236, 135, 240), rgb(242, 170, 216), rgb(182, 75, 240), rgb(195, 46, 228), rgb(241, 177, 247));
     animation: 3.0s linear infinite record;
-    animation-play-state: running; /* Ensures the animation starts running by default */
+    animation-play-state: running; 
     border: solid 2px white;
     border-radius: 50%;
     display: flex;         
@@ -114,7 +114,7 @@
 }
 
 .shape1:hover {
-    animation-play-state: paused; /* Pauses the animation on hover */
+    animation-play-state: paused; 
     font-family: "Pinyon Script", serif;
     font-size: 40px;
 }
@@ -136,7 +136,7 @@
 }
 
 .shape2:hover {
-    animation-play-state: paused; /* Pauses the animation on hover */
+    animation-play-state: paused; 
     font-family: "Pinyon Script", serif;
     font-size: 40px;
 }
@@ -159,7 +159,7 @@
 }
 
 .shape3:hover {
-    animation-play-state: paused; /* Pauses the animation on hover */
+    animation-play-state: paused; 
     font-family: "Pinyon Script", serif;
     font-size: 40px;
 }
@@ -230,7 +230,7 @@
 .art-grid div:nth-child(odd)::before {
     content: '';
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     width: 50%;
     height: 50%;
@@ -244,7 +244,7 @@
 .art-grid div:nth-child(even)::before {
     content: '';
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 

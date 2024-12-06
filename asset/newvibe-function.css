@@ -40,6 +40,7 @@ h1 {
         font-family: "Mohave", sans-serif;
 
 }
+
 /*crossword design*/ 
 .function-grid div:nth-child(15)::after { content: 'D '; }
 .function-grid div:nth-child(25)::after { content: 'O'; }
