@@ -40,9 +40,7 @@ h1 {
         font-family: "Mohave", sans-serif;
 
 }
-
-/*crossword design
-to fix - figure out if i do before or after*/ 
+/*crossword design*/ 
 .function-grid div:nth-child(15)::after { content: 'D '; }
 .function-grid div:nth-child(25)::after { content: 'O'; }
 .function-grid div:nth-child(35)::after { content: 'N'; }
@@ -135,8 +133,7 @@ to fix - figure out if i do before or after*/
 
 }
 
-/*crossword design
-to fix - figure out if i do before or after*/ 
+/*crossword design*/
 .function-grid div:nth-child(15)::after { content: 'D '; }
 .function-grid div:nth-child(25)::after { content: 'O'; }
 .function-grid div:nth-child(35)::after { content: 'N'; }

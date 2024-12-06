@@ -166,12 +166,13 @@ blockquote {
     padding-left: 0.04em;
     padding-top: 0;
 }
+
 .custom-br {
     display: block;      
-    width: 100%;          /* Full-width line */
-    height: 3px;          /* Thickness of the line */
-    background-color: black; /* Line color */
-    margin: 10px 0;       /* Optional: Adds space above and below the line */
+    width: 100%;          
+    height: 3px;         
+    background-color: black; 
+    margin: 10px 0;     
   }
   
 
@@ -324,8 +325,8 @@ footer {
 }
 
 .custom-br {
-    margin-bottom: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 @media only screen and (min-width:1200px) {
