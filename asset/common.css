@@ -1,4 +1,4 @@
-/*fonts*/ 
+/*Fonts*/ 
 .nunito-sans{
     font-family: "Nunito Sans", serif;
     font-optical-sizing: auto;
@@ -15,7 +15,7 @@
   }
 
 
-  /*nav*/ 
+  /*Nav*/ 
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -49,6 +49,8 @@ nav a {
     float: left;
     font-size: 2em;
 }
+
+/*dropdown content*/ 
 
 .dropdown {
     float: left;
@@ -94,10 +96,12 @@ border: black solid 2px;
     font-size: 2em;
 }
 
+/*header*/ 
 header {
-    margin-top: 5rem; /* Adjusted to account for nav */
+    margin-top: 5rem; 
 }  
 
+/*styling*/ 
 h1 {
     font-size: 6em;
     padding-top: 0.02em;
@@ -167,6 +171,8 @@ blockquote {
     padding-top: 0;
 }
 
+/*custom br*/ 
+
 .custom-br {
     display: block;      
     width: 100%;          
@@ -175,7 +181,7 @@ blockquote {
     margin: 10px 0;     
   }
   
-
+/*sticky text*/ 
 .sticky-textD {
     color: black;
     font-family: "Righteous", sans-serif;
