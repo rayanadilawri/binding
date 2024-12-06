@@ -41,6 +41,7 @@ nav {
     border-left: black solid 2px;
     border-right: black solid 2px;
     border-top: black solid 2px;
+    border-bottom: none; 
     position: absolute;
     }
 
@@ -273,17 +274,22 @@ blockquote {
 #back-to-top {
     height: fit-content;
     width: fit-content;
-    position: fixed; 
     bottom: 20px; 
     right: 20px;
     color: black; 
     border-radius: 5px; 
-    padding: 10px 15px;
-    font-size: 24px;  
-    z-index: 1000;
+    padding: 20px 25px;
+    
+    font-size: 40px;  
+    
     font-family: "Nunito Sans", serif;
-}
 
+    position: fixed; 
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
 
 .shapes {
     display: flex;
@@ -296,8 +302,8 @@ blockquote {
 
 .highlight {
     color: black; 
-    font-size: 1.2em;
-    font-family: "Mohave", sans-serif;
+    font-size: 1em;
+    font-family: "Nunito Sans", serif;
 }
 
 footer {
@@ -401,6 +407,11 @@ footer {
  .author {
         border-right: solid black 3px;  
         border-bottom: 0px;
+    }
+
+    #back-to-top {
+        font-size: 25px;  
+        padding: 10px 15px;
     }
         
 }
