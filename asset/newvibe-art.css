@@ -183,12 +183,6 @@
 }
 
 @media only screen and (min-width:1200px) {
-    section .halfpage {
-        margin-left: 5em;
-        margin-right: 5em;
-        width:900px;
-        
-    }
     .cards {
         display: flex;
         flex-direction: row; 
